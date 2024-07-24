@@ -37,6 +37,16 @@ ol {
   list-style: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -65,6 +75,15 @@ ol {
   justify-content: space-between;
 }
 
+.search-form__fieldset-title {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.search-form__label-text {
+  line-height: 1.2;
+}
+
 .content__details {
   /* inline-size: 100%; */
   block-size: 100%;
@@ -72,6 +91,16 @@ ol {
 
 .title {
   padding-block-end: 26px;
+  font-family: 'Oswald', sans-serif;;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 0.94;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+  ;
 }
 
 .content__list {
@@ -84,6 +113,11 @@ ol {
   padding-block-end: 30px;
 }
 
+.content__card-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .content__video-card {
   display: flex;
   align-items: start;
@@ -91,6 +125,18 @@ ol {
 
 .content__video-card-description-container {
   width: 100%;
+}
+
+.content__video-card-title {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;;
+  font-size: 30px;
+  line-height: 1;
+  padding-block-end: 6px;
+}
+
+.content__video-card-description {
+  line-height: 0.9;
 }
 
 .content__video-card-thumbnail {
