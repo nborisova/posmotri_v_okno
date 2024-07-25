@@ -16,6 +16,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  word-break: break-all;
 }
 
 h1,
@@ -79,6 +80,7 @@ ol {
 }
 
 .search-form__fieldset-title {
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
 }
@@ -95,6 +97,17 @@ ol {
 
 .search-form__textfield {
   appearance: none;
+  background-color: transparent;
+  border: none;
+  border-block-start: 1px solid #fff;
+  border-block-end: 1px solid #fff;
+  font-size: 18px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  line-height: 1.2;
+  color: #fff;
+  opacity: 70%;
+  margin-block-start: 5px;
+  width: 225px;
 }
 
 .content__details {
