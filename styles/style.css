@@ -10,7 +10,7 @@ html {
 
 .page {
   inline-size: 1200px;
-  block-size: 100%;
+  /* block-size: 100%; */
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -211,7 +211,6 @@ input[type="checkbox"]:checked + span {
 
 .content__card-link:focus-visible {
   outline: solid 1px #fff;
-  /* outline-offset: 5px; */
 }
 
 .content__video-card {
