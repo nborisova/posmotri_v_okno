@@ -9,8 +9,8 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
-  min-height: 100vh;
+  max-inline-size: 1200px;
+  min-block-size: 100vh;
   display: flex;
   align-items: center;
   margin: auto;
@@ -98,7 +98,7 @@ ol {
 
 .search-form__label {
   display: flex;
-  width: fit-content;
+  inline-size: fit-content;
   cursor: pointer;
 }
 
@@ -114,8 +114,8 @@ ol {
 
 .search-form__pseudo-checkbox {
   display: flex;
-  width: 19px;
-  height: 19px;
+  inline-size: 19px;
+  block-size: 19px;
   border: 1px solid #fff;
 }
 
@@ -142,7 +142,7 @@ input[type="checkbox"]:checked + span {
   color: inherit;
   line-height: 1.2;
   opacity: 70%;
-  width: 225px;
+  inline-size: 225px;
   padding-inline-start: 5px;
   padding-inline-end: 5px;
 }
@@ -218,12 +218,12 @@ input[type="checkbox"]:checked + span {
 .content__video-card {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  inline-size: 100%;
 }
 
 .content__video-card-description-container {
-  width: 100%;
-  max-width: 200px;
+  inline-size: 100%;
+  max-inline-size: 200px;
 }
 
 .content__video-card-title {
@@ -239,8 +239,8 @@ input[type="checkbox"]:checked + span {
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
-  height: 103px;
+  inline-size: 194px;
+  block-size: 103px;
   object-fit: cover;
 }
 
@@ -271,12 +271,12 @@ input[type="checkbox"]:checked + span {
 }
 
 .search-form__submit-button {
-  width: 194px;
-  height: 34px;
+  inline-size: 194px;
+  block-size: 34px;
   align-self: flex-end;
 }
 
 .more-button {
-  width: 399px;
-  height: 34px;
+  inline-size: 399px;
+  block-size: 34px;
 }
